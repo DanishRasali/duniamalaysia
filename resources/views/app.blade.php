@@ -7,7 +7,7 @@
     <script src="{{ mix('/js/app.js') }}" defer></script>
     @routes
   </head>
-  <body>
+  <body style="background-color: #e7e3d8;">
     @inertia
   </body>
 </html>

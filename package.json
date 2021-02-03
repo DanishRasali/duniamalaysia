@@ -29,6 +29,7 @@
         "@inertiajs/inertia-vue": "^0.5.5",
         "@inertiajs/progress": "^0.2.4",
         "@tailwindcss/postcss7-compat": "^2.0.2",
+        "animejs": "^3.2.1",
         "autoprefixer": "^9.8.6",
         "postcss": "^7.0.35",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"

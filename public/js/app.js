@@ -16118,10 +16118,12 @@ module.exports = g;
 var map = {
 	"./Main/Index": [
 		"./resources/js/Pages/Main/Index.vue",
+		1,
 		0
 	],
 	"./Main/Index.vue": [
 		"./resources/js/Pages/Main/Index.vue",
+		1,
 		0
 	]
 };
@@ -16135,7 +16137,7 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(function() {
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
 		return __webpack_require__(id);
 	});
 }
@@ -16193,8 +16195,8 @@ new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/duniamalaysia/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/duniamalaysia/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /Users/danishrasali/Code/duniamalaysia/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/danishrasali/Code/duniamalaysia/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })
