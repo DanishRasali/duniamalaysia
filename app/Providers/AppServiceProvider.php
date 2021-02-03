@@ -40,7 +40,7 @@ class AppServiceProvider extends ServiceProvider
         Inertia::share([
             'app' => [
                 'name' => config('app.name'),
-                'url' => env('APP_URL',)
+                'url' => env('APP_URL'),
             ],
             'route' => function () {
                 return [
